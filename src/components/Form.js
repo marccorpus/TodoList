@@ -76,6 +76,11 @@ const styles = StyleSheet.create({
     marginRight: 20,
     padding: 12,
     fontSize: 16,
+    elevation: 3,
+    shadowColor: colors.Black,
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
   },
   button: {
     width: 60,
@@ -84,6 +89,11 @@ const styles = StyleSheet.create({
     backgroundColor: colors.White,
     justifyContent: "center",
     alignItems: "center",
+    elevation: 3,
+    shadowColor: colors.Black,
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
   },
   buttonPressed: {
     opacity: 0.75,
